@@ -1,0 +1,22 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: kongu
+ * Date: 02-Aug-15
+ * Time: 1:02 PM
+ */
+class NewWorldTest extends PHPUnit_Framework_TestCase
+{
+    public function testAdd()
+    {
+        $nw = new NewWorld();
+        $this->assertEquals(5,5);
+    }
+    public function testSub()
+    {
+        $nw = new NewWorld();
+        $this->assertEquals(1,1);
+    }
+   
+
+}
