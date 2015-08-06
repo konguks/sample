@@ -10,12 +10,12 @@ class NewWorldTest extends PHPUnit_Framework_TestCase
     public function testAdd()
     {
         $nw = new NewWorld();
-        $this->assertEquals(5,5);
+        $this->assertEquals(5,$nw->Add(2,3));
     }
     public function testSub()
     {
         $nw = new NewWorld();
-        $this->assertEquals(1,1);
+        $this->assertEquals(1,$nw->Sub(3,2));
     }
    
 
